@@ -1,0 +1,104 @@
+.icon {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .icon-notification {
+    background-image: url(../icons/bell.png);
+  }
+  .icon-briefcase {
+    background-image: url(../icons/briefcase.png);
+  }
+  .icon-calendar {
+    background-image: url(../icons/calendar\ 1.png);
+  }
+  
+  .icon-chevronup {
+    background-image: url(../icons/chevron-up-no-white.png);
+  }
+  .icon-chevronupdown {
+    background-image: url(../icons/chevron-down.png);
+  }
+  .icon-edit {
+    background-image: url(../icons/edit\ \(1\)\ 1.png);
+  }
+  .icon-ellipse {
+    background-image: url(../icons/home\ \(1\)\ 1.png);
+  }
+  .icon-grid {
+    background-image: url(../icons/grid.png);
+  }
+  .icon-hashtag {
+    background-image: url(../icons/hashtag.png);
+  }
+  .icon-heart {
+    background-image: url(../icons/heart\ \(3\)\ 1.png);
+  }
+  .icon-home {
+    background-image: url(../icons/home\ \(1\)\ 1.png);
+  }
+  .icon-grid {
+    background-image: url(../icons/grid.png);
+  }
+  .icon-message {
+    background-image: url(../icons/message-square.png);
+  }
+  .icon-more {
+    background-image: url(../icons/3-point.png);
+  }
+  .icon-plus {
+    background-image: url(../icons/plus\ \(1\)\ 1.png);
+  }
+  .icon-search {
+    background-image: url(../icons/search\ \(1\)\ 1.png);
+  }
+  .icon-send {
+    background-image: url(../icons/send\ 1.png);
+  }
+  .icon-share {
+    background-image: url(../icons/share-2\ 1.png);
+  }
+  .icon-like {
+    background-image: url(../icons/like.png);
+  }
+  .icon-thumbsup {
+    background-image: url(../icons/thumbs-up\ .svg);
+  }
+  .icon-users {
+    background-image: url(../icons/users.png);
+  }
+  .icon-video {
+    background-image: url(../icons/video\ 1.png);
+  }
+  .icon-userblue {
+    background-image: url(../icons/users\ blue.svg);
+  }
+  .icon-plus {
+    background-image: url(../icons/plus\ \(1\)\ 1.png);
+  }
+  .icon-camera {
+    background-image: url(../icons/camera\ \(1\)\ 1.png);
+  }
+  .icon-cameragrey {
+    background-image: url(../icons/comment-camera.png);
+  }
+  .icon-plusblue {
+    background-image: url(../icons/Rectangle\ 18.png);
+  }
+  .icon-dot {
+    background-image: url(../icons/Rectangle\ 18.png);
+  }
+  .icon-editwhite {
+    background-image: url(../icons/edit-white.png);
+  }
+  .icon-ellipsewhite {
+    background-image: url(../icons/3-point.png);
+  }
+  .icon-upwhite {
+    background-image: url(../icons/chevron-up\ \(1\)\ 1.png);
+  }

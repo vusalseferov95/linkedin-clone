@@ -1,7 +1,357 @@
-body, html{
-    min-width: 100%;
-}
-
-.container{
-    width: 1440px;
-}
+body {
+    background: #f5f6f8;
+  }
+  body,
+  html {
+    height: 100%;
+  }
+  
+  .container {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  header {
+    width: 100%;
+    background: #fff;
+  }
+  .header .search {
+    width: 312px;
+    height: 32px;
+    background-color: #dedede;
+    padding: 7px;
+    border-radius: 4px;
+    margin-left: 18px;
+    margin-right: 68px;
+  }
+  .search input:focus {
+    outline: none;
+  }
+  
+  .header span {
+    margin-right: 16px;
+  }
+  .header .search input {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .navbar-text {
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .navbar-link {
+    display: flex;
+    text-align: center;
+  }
+  .navbar-icon {
+    display: flex;
+    object-fit: cover;
+  }
+  
+  .profile .avatar {
+    width: 24px;
+    height: 24px;
+  }
+  .profile .name {
+    font-size: 12px;
+  }
+  .profile .status {
+    color: #31b057;
+    font-size: 10px;
+    text-align: right;
+  }
+  .page-left {
+    width: 275px;
+    flex-shrink: 0;
+    position: absolute;
+    height: 100%;
+  }
+  
+  .page-content {
+    margin-left: 300px;
+    flex-shrink: 0;
+  }
+  
+  .page-right {
+    width: 360px;
+    position: sticky;
+    padding-left: 900px;
+    height: 100%;
+    margin-top: -975px;
+  }
+  
+  .profile-view {
+    width: 270px;
+    height: 225px;
+    border-radius: 6px;
+    background: #fff;
+    border-bottom: 1px solid var(--bordercolor);
+    padding: 8px;
+  }
+  .profile-view img {
+    position: relative;
+  }
+  .profile-view .avatar {
+    position: absolute;
+    margin-left: 97px;
+    margin-top: -30px;
+    border-radius: 56px;
+  }
+  .profile-view .name {
+    color: #17272f;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .profile-view .position {
+    color: #aaa;
+    font-size: 14px;
+    text-align: center;
+  }
+  .description {
+    border-bottom: 1px solid #edf0f5;
+  }
+  .card-newest {
+    width: 270px;
+    height: 301px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #fff;
+  }
+  .card-head .title {
+    border-bottom: 1px solid #edf0f5;
+  }
+  .card-head .title-text {
+    color: #17272f;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+  }
+  
+  .hashtag-icon i {
+    object-fit: contain;
+    height: 12px;
+    width: 12px;
+  }
+  .hashtag-link {
+    color: #069;
+    font-size: 12px;
+  }
+  .card-body .active-text {
+    color: #31b057;
+    font-size: 14px;
+    font-family: Roboto;
+  }
+  .card-event {
+    width: 270px;
+    height: 51px;
+    border-radius: 6px;
+    background: #fff;
+    font-weight: 500;
+  }
+  
+  .card-more {
+    border-radius: 6px;
+    background: #fff;
+    text-align: center;
+  }
+  .card-more a {
+    color: #069;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .create-post {
+    width: 540px;
+    height: 124px;
+    border-radius: 6px;
+    background: #fff;
+  }
+  .create-post .create-text {
+    color: #aaa;
+    font-size: 14px;
+    font-family: Roboto;
+    margin-top: 15px;
+    border-bottom: 1px solid #edf0f5;
+  }
+  .create-post .text {
+    color: #17272f;
+    font-size: 14px;
+    font-family: Roboto;
+  }
+  .filter {
+    width: 540px;
+    height: 42px;
+    border-radius: 6px;
+    background-color: #dedede;
+    padding: 13px;
+  }
+  .linkedin-item {
+    width: 540px;
+    border-radius: 6px;
+    background: #fff;
+  }
+  .linkedin-item .avatar {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .linkedin-item .inner {
+    border-bottom: 1px solid #edf0f5;
+  }
+  .linkedin-title .name {
+    color: #17272f;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .linkedin-title .position,
+  .time {
+    color: #aaa;
+  }
+  .linkedin-item .text {
+    color: #17272f;
+    font-size: 14px;
+  }
+  .linkedin-item .hashtag {
+    color: #069;
+    font-size: 14px;
+  }
+  .linkedin-item .comment-view {
+    border-bottom: 1px solid #edf0f5;
+  }
+  .linkedin-buttons .text {
+    color: #aaa;
+    font-size: 16px;
+  }
+  .linkedin-buttons .linkedin-button {
+    gap: 17px;
+  }
+  .write-comment .avatar {
+    width: 32px;
+    height: 32px;
+  }
+  .write-comment .comment {
+    width: 459px;
+    border-radius: 6px;
+    border: 1px solid #edf0f5;
+  }
+  .write-comment input {
+    border: none;
+    color: #dedede;
+    font-size: 14px;
+  }
+  .page-right .feeds {
+    width: 270px;
+    padding: 16px;
+    border-radius: 6px;
+    background: #fff;
+  }
+  .feeds .box {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid #069;
+  }
+  .dot {
+    width: 4px;
+    height: 4px;
+  }
+  .feeds .inner .avatar {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+  .recomendation {
+    margin-top: 36px;
+  }
+  
+  .recomendation a {
+    margin-top: 36px;
+    margin-left: 56px;
+    color: #069;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .advertisement {
+    width: 270px;
+    border-radius: 6px;
+    background: #fff;
+  }
+  .advertisement h4 {
+    color: #17272f;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .advertisement p {
+    color: #aaa;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .ads-head {
+    border-bottom: 1px solid #edf0f5;
+  }
+  .advertisement figure {
+    width: 84px;
+    height: 84px;
+  }
+  .advertisement figure .avatar {
+    width: 72px;
+    height: 72px;
+  }
+  .advertisement .update {
+    color: #17272f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .advertisement .recomendation {
+    margin-top: 36px;
+  }
+  
+  footer {
+    width: 270px;
+    margin-top: 54px;
+  }
+  .footer {
+    border-bottom: 1px solid #edf0f5;
+  }
+  .footer a {
+    color: #aaa;
+    font-size: 10px;
+    font-weight: 400;
+    margin-right: 21px;
+    padding-bottom: 16px;
+  }
+  .footer a:hover {
+    color: rgba(29, 155, 240, 1);
+  }
+  footer h6 p {
+    color: #aaa;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  footer .logo {
+    width: 44px;
+    height: 12px;
+  }
+  
+  .messaging {
+    margin-top: 135px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 270px;
+    height: 56px;
+    background: linear-gradient(#006699, #009099);
+  }
+  
+  .messaging .avatar {
+    width: 32px;
+    height: 32px;
+  }
+  .messaging span {
+    color: #fff;
+    font-size: 14px;
+  }
